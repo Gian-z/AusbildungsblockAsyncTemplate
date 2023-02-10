@@ -1,4 +1,5 @@
-﻿using System.Diagnostics;
+﻿using System;
+using System.Diagnostics;
 using System.Globalization;
 using System.Windows.Controls;
 
@@ -9,7 +10,7 @@ public partial class Bar : UserControl
     public Bar()
     {
         InitializeComponent();
-        
+
         var geo = Geometry.Parse("M 0,0 l 150,0 0,10 -150,0 z");
         var skewT = new SkewTransform(45, 0);
         var geoClone = geo.Clone();

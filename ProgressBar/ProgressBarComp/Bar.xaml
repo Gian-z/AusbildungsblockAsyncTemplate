@@ -29,7 +29,7 @@
     
     <StackPanel Orientation="Vertical" Background="#464646">
         <Grid HorizontalAlignment="Center" Margin="0 4 0 0">
-            <ProgressBar Template="{StaticResource ProgressBarPath}" Width="480" Height="32" Value="{Binding ElementName=Progress, Path=Value}" />
+            <ProgressBar Template="{StaticResource ProgressBarPath}" Width="480" Height="32" Value="{Binding Progress}" />
             <Label Content="" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="#FFFFFF" />
             <Label Content="{Binding ElementName=Progress, Path=Value}" ContentStringFormat="{}{0} %" Padding="0" HorizontalAlignment="Right" VerticalAlignment="Center" FontStyle="Italic" Margin="0 0 10 0" Foreground="#808080" />
         </Grid>

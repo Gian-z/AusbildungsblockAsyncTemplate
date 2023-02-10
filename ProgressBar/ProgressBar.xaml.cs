@@ -8,5 +8,6 @@ public partial class ProgressBar : Window
     private ProgressBar()
     {
         InitializeComponent();
+        bar.DataContext = ...
     }
 }
