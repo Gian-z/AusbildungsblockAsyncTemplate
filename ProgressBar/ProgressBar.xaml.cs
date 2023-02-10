@@ -1,4 +1,6 @@
-﻿namespace ProgressBar;
+﻿using ProgressBar.ProgressBarComp;
+
+namespace ProgressBar;
 
 /// <summary>
 /// Interaction logic for MainWindow.xaml
@@ -8,6 +10,14 @@ public partial class ProgressBar : Window
     private ProgressBar()
     {
         InitializeComponent();
-        bar.DataContext = ...
     }
+
+    public static ProgressBar FromContext(IProgressProvider context) =>
+        new()
+        {
+            bar =
+            {
+                DataContext = context
+            }
+        };
 }
