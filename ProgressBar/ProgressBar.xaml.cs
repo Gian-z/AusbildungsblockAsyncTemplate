@@ -12,12 +12,10 @@ public partial class ProgressBar : Window
         InitializeComponent();
     }
 
-    public static ProgressBar FromContext(IProgressProvider context) =>
-        new()
-        {
-            bar =
-            {
-                DataContext = context
-            }
-        };
+    public static ProgressBar FromContext(IProgressProvider context)
+    {
+        var pb = new ProgressBar();
+        pb.DataContext = context;
+        return pb;
+    }
 }

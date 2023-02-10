@@ -6,5 +6,5 @@
         xmlns:progressBarComp="clr-namespace:ProgressBar.ProgressBarComp"
         mc:Ignorable="d"
         Title="MainWindow" Height="250" Width="550">
-        <progressBarComp:Bar Name="bar"></progressBarComp:Bar>
+        <progressBarComp:Bar DataContext="{Binding }"></progressBarComp:Bar>
 </Window>

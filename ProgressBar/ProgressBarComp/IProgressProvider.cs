@@ -1,6 +1,10 @@
-﻿namespace ProgressBar.ProgressBarComp;
+﻿using System;
+
+namespace ProgressBar.ProgressBarComp;
 
 public interface IProgressProvider
 {
-    public int Progress { get; }
+    public Progress<int> Progress { get; }
+    
+    public int CurrentValue { get; }
 }
