@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgressBar", "ProgressBar\ProgressBar.csproj", "{0515D40C-9586-40D6-BEF0-0C4210B5C52E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0515D40C-9586-40D6-BEF0-0C4210B5C52E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0515D40C-9586-40D6-BEF0-0C4210B5C52E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0515D40C-9586-40D6-BEF0-0C4210B5C52E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0515D40C-9586-40D6-BEF0-0C4210B5C52E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
